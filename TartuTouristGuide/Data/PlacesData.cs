@@ -572,7 +572,7 @@ namespace TartuTouristGuide.Data
                     Category = "Restaurants",
                     ShortDescription = "Street food restaurant inspired by world cuisines in Aparaaditehas factory.",
                     FullDescription = "Kolm Tilli offers open-kitchen street food with Italian pizzas from authentic oven, juicy burgers, fresh salads, cocktails, and events/concerts in relaxed vibe.",
-                    Image = "FoodCategory/kolmtilli.png",
+                    Image = "FoodPlacesCategory/kolmtilli.png",
                     Hours = "Mon-Tue: 9:00am-10:00pm\nWed-Thu: 9:00am-11:00pm\nFri: 9:00am-12:00am\nSat: 10:00am-12:00am\nSun: 10:00am-10:00pm",
                     Address = "Kastani tn 42, 50410 Tartu"
                 }
