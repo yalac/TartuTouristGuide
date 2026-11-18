@@ -7,7 +7,7 @@ namespace TartuTouristGuide
         public AppShell()
         {
             InitializeComponent();
-            Application.Current.UserAppTheme = AppTheme.Light;
+            Application.Current?.UserAppTheme = AppTheme.Light;
 
             Routing.RegisterRoute("CategoryListPage", typeof(CategoryListPage));
             Routing.RegisterRoute("PlaceDetailPage", typeof(PlaceDetailPage));
