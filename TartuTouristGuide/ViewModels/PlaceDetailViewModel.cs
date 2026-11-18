@@ -140,7 +140,7 @@ namespace TartuTouristGuide.ViewModels
         {
             try
             {
-                bool goToRewards = await Application.Current.MainPage.DisplayAlert(
+                bool goToRewards = await Shell.Current.DisplayAlertAsync(
                     "🏆 Reward Unlocked!",
                     $"{reward.Name}\n\n{reward.Description}",
                     "View Rewards",

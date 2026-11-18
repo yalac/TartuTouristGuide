@@ -98,7 +98,7 @@ namespace TartuTouristGuide.ViewModels
         // Resets the visited status of all places in the selected category
         private async Task ResetCategory()
         {
-            bool confirm = await Application.Current.MainPage.DisplayAlert(
+            bool confirm = await Shell.Current.DisplayAlertAsync(
                 "Reset Category",
                 $"Are you sure you want to mark all places in {Category} as not visited?",
                 "Yes, Reset",
@@ -120,7 +120,7 @@ namespace TartuTouristGuide.ViewModels
 
                 LoadPlaces();
 
-                await Application.Current.MainPage.DisplayAlert(
+                await Shell.Current.DisplayAlertAsync(
                     "Reset Complete",
                     $"All places in {Category} have been reset.",
                     "OK"
